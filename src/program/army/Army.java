@@ -24,7 +24,9 @@ public void addSoldier(){
     Soldiers soldiers = new Soldiers(name,weapon,hasArmor);
     infantry.add(soldiers);
     armory.add(weapon);
+
 }
+
 
 public void showWeapons(){
     System.out.println("In the armory we have this kind of weapons: ");
